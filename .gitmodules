@@ -1,0 +1,3 @@
+[submodule "bundle/zsh-autosuggestions"]
+	path = bundle/zsh-autosuggestions
+	url = git://github.com/tarruda/zsh-autosuggestions
