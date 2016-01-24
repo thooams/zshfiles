@@ -1,3 +1,6 @@
 [submodule "bundle/zsh-autosuggestions"]
 	path = bundle/zsh-autosuggestions
 	url = git://github.com/tarruda/zsh-autosuggestions
+[submodule "bundle/zsh-syntax-highlighting"]
+	path = bundle/zsh-syntax-highlighting
+	url = git://github.com/zsh-users/zsh-syntax-highlighting
