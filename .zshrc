@@ -4,19 +4,6 @@
 # time that oh-my-zsh is loaded.
 #ZSH_THEME="mh"
 
-
-# Load zsh-syntax-highlighting.
-source ~/.zsh/bundle/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-#
-# Load zsh-autosuggestions.
-source ~/.zsh/bundle/zsh-autosuggestions/autosuggestions.zsh
-
-# Enable autosuggestions automatically.
-zle-line-init() {
-  zle autosuggest-start
-}
-zle -N zle-line-init
-
 if [[ "$OSTYPE" =~ ^darwin ]]; then
   ZSH_THEME="powerlevel9k/powerlevel9k"
 else
@@ -119,3 +106,17 @@ export PATH="/usr/local/heroku/bin:$PATH"
 
 # added by travis gem
 [ -f /Users/thomas/.travis/travis.sh ] && source /Users/thomas/.travis/travis.sh
+
+## Load zsh-syntax-highlighting.
+#source ~/.zsh/bundle/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+##
+## Load zsh-autosuggestions.
+#source ~/.zsh/bundle/zsh-autosuggestions/autosuggestions.zsh
+#
+## Enable autosuggestions automatically.
+#unset COMPLETION_WAITING_DOTS
+#zle-line-init() {
+#  zle autosuggest-start
+#}
+#zle -N zle-line-init
+
